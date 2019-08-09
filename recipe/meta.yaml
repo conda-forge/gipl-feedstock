@@ -1,5 +1,5 @@
 {% set name = "gipl" %}
-{% set version = "1.1" %}
+{% set version = "1.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/permamodel/GIPL-BMI-Fortran/archive/v{{ version }}.tar.gz
-  sha256: da6922bf09f55bd3da62f810f5441944f53e60f5c1337b52d7d896432a47959a
+  sha256: 1368359e92b5fb7cccbe6181911ddf0e50364e28430e563d0bf2d2bc1026116e
 
 build:
   number: 0
