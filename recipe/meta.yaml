@@ -23,6 +23,7 @@ test:
   source_files:
     - data
   commands:
+    - run_bmigipl_model --help
     - run_bmigipl_model data/gipl_config.cfg
 
 about:
