@@ -18,6 +18,9 @@ requirements:
     - {{ compiler('fortran') }}
     - make
     - cmake
+  host:
+    - cmake
+    - bmi-fortran
 
 test:
   source_files:
