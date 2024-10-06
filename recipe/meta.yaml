@@ -11,11 +11,12 @@ source:
 
 build:
   number: 1
-  skip: true  # [win]
+  skip: true  # [win and vc<14]
 
 requirements:
   build:
     - {{ compiler('fortran') }}
+    - {{ compiler('cxx') }}  # [win]
     - {{ stdlib("c") }}
     - make
     - cmake
