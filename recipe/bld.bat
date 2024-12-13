@@ -1,6 +1,6 @@
 set "BUILD_DIR=_build"
 
-cmake -G Ninja ^
+cmake -B %BUILD_DIR% -G Ninja ^
   -DCMAKE_INSTALL_PREFIX:PATH=%LIBRARY_PREFIX% ^
   -DCMAKE_PREFIX_PATH:PATH="%LIBRARY_PREFIX%" ^
   -DCMAKE_BUILD_TYPE=Release ^
