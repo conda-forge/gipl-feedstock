@@ -38,7 +38,7 @@ about:
     the effect of snow layers and subsurface soil thermal properties
     to simulate ground temperatures and active layer thickness by
     numerically solving the 1D heat diffusion equation with phase
-    change using finite-differnce techniques. This version of the GIPL
+    change using finite-difference techniques. This version of the GIPL
     model includes a Basic Model Interface (BMI) created by Kang Wang
     (university of Colorado Boulder).
   doc_url: https://csdms.colorado.edu/wiki/Model_help:GIPL
