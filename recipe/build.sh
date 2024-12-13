@@ -1,11 +1,9 @@
-#! /usr/bin/env bash
+BUILD_DIR=_build
 
-mkdir _build && cd _build
-
-cmake ${SRC_DIR} \
+cmake -LA -B ${BUILD_DIR} \
   ${CMAKE_ARGS} \
   -DCMAKE_INSTALL_PREFIX=$PREFIX \
   -DCMAKE_BUILD_TYPE=Release
 
-make
-make install
+cmake --build ${BUILD_DIR}
+cmake --install ${BUILD_DIR}
