@@ -18,7 +18,6 @@ requirements:
     - {{ compiler('fortran') }}
     - {{ compiler('cxx') }}  # [win]
     - {{ stdlib("c") }}
-    - make  # [unix]
     - cmake
 
 test:
