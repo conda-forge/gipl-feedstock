@@ -17,7 +17,7 @@ The Geophysical Institute Permafrost Laboratory (GIPL) model uses
 the effect of snow layers and subsurface soil thermal properties
 to simulate ground temperatures and active layer thickness by
 numerically solving the 1D heat diffusion equation with phase
-change using finite-differnce techniques. This version of the GIPL
+change using finite-difference techniques. This version of the GIPL
 model includes a Basic Model Interface (BMI) created by Kang Wang
 (university of Colorado Boulder).
 
@@ -58,6 +58,13 @@ Current build status
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=7289&branchName=main">
                   <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/gipl-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>win_64</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=7289&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/gipl-feedstock?branchName=main&jobName=win&configuration=win%20win_64_" alt="variant">
                 </a>
               </td>
             </tr>
